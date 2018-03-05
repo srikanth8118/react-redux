@@ -1,0 +1,79 @@
+Component in React:
+-- it is blue print, Components are reusable small pieces. 
+-- the components in react are useful to bulid the the web applications 
+-- In react library, components are faster compared to the angular js components
+
+Render method:
+-- render method helps to the view the html page
+-- when the render method is invoked, the components can displayed on the front End 
+-- it is faster and helps in dom manipulation
+
+JSX:
+--it is known as javascript Xml
+-- JSX uses Html syntax
+-- the browser cannot understand the jsx directly it should be converted using a transpiler
+Example:
+render(){
+	return(
+	<div>this is a Component</div>
+
+	)
+} 
+
+Angular vs react:
+--Angular is an opensource javascript framework.
+--Angular has a lots of concepts like directives, components, services,
+--In Angular, it is easier to fix the issuses. we can find the solution with the help of google
+--Angular uses two way binding which is not good for performance
+-- Angular uses Html templates
+
+React:
+-- React is an Javascript framework
+--React only uses the components
+--it is difficult to resolve the issuses in react
+--react is JSX synatax 
+-- React is faster when compared to the Angular
+
+Virtual DOM:
+-- Virtual Dom is an good advantage in React
+-- it compares the current DOM with the future predicted DOM. We can make minimal changes in the code using different Algorithm
+-- Virtual DOM is faster compared to the DOM 
+-- it will compare the previous  Dom using the snapshot and predicts the updated Dom. It is known as diffing.
+
+State:
+--the data that is managed within the Component is known as state
+-- it is muttable
+-- good in performance
+
+
+props:
+-- the data which is to be transfferd from parent component to child component
+-- It is immmutable
+-- not good in performance
+
+Steps Involved in converting ES6 nto ES5 syntax:
+1. Firstly, we have load the dev dependencies into our working directory
+2. Required dev dependencies are:
+	--  babel-core
+	--  babel-loader
+	--  babel-preset-es2015
+	--  babel-prest-stage-1
+Here Babel is a transpiler used to convert ES6 to ES5
+3. Wehave to use node package manager to install the dependencies
+	npm install --save -dev babel-core bable-loader babel-preset-es2015 babel-preset-stage-1
+4.Now, we have build webpack.config.js file. It is an module loader
+5. The transpiled ES5 code will be output in bundle.js
+6. to convert the code we have use the command webpack-dev-server
+
+React DOM:
+-- the react-dom is an npm dependency
+--it is used to render the react component on the html page
+
+
+
+
+
+
+
+
+
